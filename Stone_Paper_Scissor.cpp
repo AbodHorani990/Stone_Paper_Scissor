@@ -1,12 +1,12 @@
 // Stone_Paper_Scissor.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
-#include <cstdlib>
-#include <windows.h>
+#include <iostream>//Input-output library 
+#include <cstdlib>//To use the random number generator (srand(unsigned)time(NULL))
+#include <windows.h>//To include sounds in c++
 using namespace std;
 
-enum enGameChoice { Stone = 1, Paper = 2, Scissors = 3 };
+enum enGameChoice { Stone = 1, Paper = 2, Scissors = 3 };//The choices of the game "Stone", "Paper" and "Scissor".
 
 // Enumeration: enWinner
 // Purpose: Defines possible winners for a round or game.
@@ -195,4 +195,5 @@ int main()
     
     StartGame();
 }
+
 
