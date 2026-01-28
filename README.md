@@ -1,67 +1,48 @@
-# Stone_Paper_Scissor
-A classic implementation of the Stone, Paper, Scissors game (also known as Rock, Paper, Scissors) built using C++. This project focuses on clean logic, input validation, and random choice generation.
+🪨📄✂️ Stone, Paper, Scissors - C++ Edition
+A high-performance, console-based implementation of the classic Stone, Paper, Scissors game. This project demonstrates core C++ concepts including Enumerations, Modular Programming, and Input Validation.
 
-🚀 Features
-Interactive Gameplay: User vs Computer.
+🌟 Key Features
+Smart Game Logic: Efficiently determines winners using clean conditional structures.
 
-Input Validation: Ensures the user enters valid choices.
+Robust Validation: Prevents crashes by strictly validating user inputs.
 
-Score Tracking: Keeps track of wins, losses, and draws across multiple rounds.
+Dynamic Scoreboard: Detailed tracking of wins, losses, and draws across multiple rounds.
 
-Randomization: Uses srand and rand for unpredictable computer moves.
+True Randomness: Utilizes srand(time(0)) to ensure the computer's moves are unpredictable.
 
-Modular Code: Clean functions for game logic, UI, and results.
-🛠️ How to Run
-To run this game on your local machine, follow these steps:
+Clean Codebase: Fully modular functions for easy maintenance and readability.
 
-Clone the repository:
-
-Bash
-
-git clone https://github.com/YourUsername/StonePaperScissors.git
-Navigate to the project directory:
-
-Bash
-
-cd StonePaperScissors
-Compile the code: Using g++ (MinGW or Linux):
-
-Bash
-
-g++ main.cpp -o StonePaperScissors
-Run the application:
-
-Bash
-
-./StonePaperScissors
 🎮 How to Play
-Choose how many rounds you want to play.
+The game follows the standard rules: | Choice | Beats | | :--- | :--- | | Stone (1) | Scissors | | Paper (2) | Stone | | Scissors (3) | Paper |
 
-Enter your choice:
+Run the application.
 
-1 for Stone
+Enter the number of rounds you wish to play.
 
-2 for Paper
+Enter your move (1, 2, or 3).
 
-3 for Scissors
+Challenge the computer and see the final results!
 
-The computer will make its move.
+🛠️ Installation & Setup
+To get a local copy up and running, follow these simple steps:
 
-The winner of the round is announced based on the rules:
+Clone the Repo
 
-Stone beats Scissors.
+Bash
+git clone https://github.com/YourUsername/StonePaperScissors.git
+Compile
 
-Paper beats Stone.
+Bash
+g++ main.cpp -o StonePaperScissors
+Launch
 
-Scissors beat Paper.
+Bash
+./StonePaperScissors
+💻 Technical Implementation
+This project was built to showcase:
 
-At the end of all rounds, the final winner is displayed.
+Enums: For representing enGameChoice and enWinner.
 
-💻 Code Structure
-The project follows a structured approach:
+Structs: To manage game results and round info.
 
-Enums: To represent choices (Stone, Paper, Scissors) and winners.
-
-Functions: Modular functions for getting user input, generating computer choices, and calculating results.
-
-Loops: To handle the multiple rounds of gameplay.
+Logic: Clean separation between UI (Input/Output) and Game Logic.
