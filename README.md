@@ -46,3 +46,5 @@ Enums: For representing enGameChoice and enWinner.
 Structs: To manage game results and round info.
 
 Logic: Clean separation between UI (Input/Output) and Game Logic.
+
+⭐ If you found this project helpful or like the clean implementation, please give it a star to support the repository!
